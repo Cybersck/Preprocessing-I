@@ -1,1 +1,90 @@
-/* Compile your LESS file! */
+@font-face {
+  font-family: 'Patua One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Patua One'), local('PatuaOne-Regular'), url(https://fonts.gstatic.com/s/patuaone/v10/ZXuke1cDvLCKLDcimxB44_lr.ttf) format('truetype');
+}
+html,
+body {
+  height: 100%;
+  min-width: 100%;
+  background-color: #f1f1f1;
+}
+html header,
+body header {
+  min-height: max-content;
+}
+html h1,
+body h1 {
+  font-family: 'Patua One', cursive;
+  color: #ff4500;
+}
+html p,
+body p {
+  font-size: 1.6em;
+}
+html .container,
+body .container {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+html .navbar,
+body .navbar {
+  min-width: 100%;
+  min-height: 10%;
+}
+html .navbar-nav,
+body .navbar-nav {
+  min-width: 100%;
+}
+html .nav-item,
+body .nav-item {
+  margin: 0 auto;
+}
+html .nav-link,
+body .nav-link {
+  color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 1.6rem;
+  text-align: center;
+}
+html .nav-link:hover,
+body .nav-link:hover {
+  color: #ff4500;
+}
+html .parallax,
+body .parallax {
+  background-image: url('../img/beach.jpg');
+  height: 20%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+html .p2,
+body .p2 {
+  height: 40%;
+}
+html .parallax2,
+body .parallax2 {
+  background-image: url('../img/abstract.jpg');
+  height: 40%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+html ._p2,
+body ._p2 {
+  height: 20%;
+}
+html .foot-font,
+body .foot-font {
+  color: #ff4500;
+}
+html .hideme,
+body .hideme {
+  display: none;
+}
